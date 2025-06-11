@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+*.log
+
+# Virtual environments
+venv/
+env/
+.env/
+ENV/
+.venv/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Migrations (опционально — если ты не хочешь коммитить их сразу)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+# **/migrations/*.py  # ← Раскомментируй, если НЕ хочешь коммитить миграции
+
+# Tests
+htmlcov/
+.coverage
+coverage.xml
+.pytest_cache/
+.tox/
+.cache/
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# System
+.DS_Store
+Thumbs.db
